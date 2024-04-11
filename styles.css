@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
+
+body {
+  margin: 20px;
+  font-family: "Poppins";
+  background: #d1dedd;
+}
+h1{
+  color: #767f7e;
+}
+header{
+  max-width: 1200px;
+  margin: 40px auto;
+  border-bottom: 1px solid #bbc7c7;
+}
+.zara{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+div.featured{
+  grid-column: span 2;
+  grid-row: span 2;
+}
+div img{
+  width: 100%;
+}
+
+.shop{
+  width: 100%;
+  max-width: 1200px; max-height: 100px;
+  margin: 0 auto;
+}
+.jacket{
+  height: 100px;
+  width: 100px;
+}
+.tshirt{
+  height: 100px;
+  width: 100px;
+}
+.suits{
+  height: 100px;
+  width: 100px;
+}
+.shirt{
+  height: 100px;
+  width: 100px;
+}
+.linen{
+  height: 100px;
+  width: 100px;
+}
+
+
+div a{
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  background-color: #767f7e;
+  font-size: 10px;
+
+}
+div h1{
+  text-align: center;
+  color: #555;
+  display: block;
+  padding: 10px;
+  font-size: 10px;
+
+}
+div h2{
+  text-align: center;
+  color: #555;
+  display: block;
+  padding: 10px;
+  font-size: 10px;
+
+}
+div h3{
+  text-align: center;
+  color: #555;
+  display: block;
+  padding: 10px;
+  font-size: 10px;
+
+}
+div h4{
+  text-align: center;
+  color: #555;
+  display: block;
+  padding: 10px;
+  font-size: 10px;
+
+}
+div h5{
+  text-align: center;
+  color: #555;
+  display: block;
+  padding: 10px;
+  font-size: 10px;
+
+}
+div a:hover{
+  background-color: #555;
+}
+@media screen and (min-width: 100px) {
+  .shop {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 0;
+ 
+   
+
+  }
+}
+
+  
